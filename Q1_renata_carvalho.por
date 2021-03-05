@@ -1,17 +1,18 @@
 programa
 {
-	funcao inicio()
+	funcao inicio() 
 	{
-		real numero
+		inteiro contador = 0
+		inteiro numero
 		
-		escreva("Digite um Número: ")
-		leia(numero)
-
-		se(numero > 10) 
-		{ 
-			escreva("MAIOR")
+		enquanto(contador < 10)
+		{
+		escreva("\nOs Números Pares são: ", contador)
+			
+		contador = contador + 2	
 		}
-	}
+		
+		}
 }
 
 /* $$$ Portugol Studio $$$ 
@@ -19,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 149; 
+ * @POSICAO-CURSOR = 159; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
