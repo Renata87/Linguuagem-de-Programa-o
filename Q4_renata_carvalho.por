@@ -3,26 +3,27 @@ programa
 	funcao inicio()
 	{
 		inteiro idade
-		real altura
-		
-		escreva("Digite a Idade: ")
+				
+		escreva("Digite Sua Idade: ")
 		leia(idade)
 
-		escreva("Digite a Altura: ")
-		leia(altura)
-
-		se(idade >= 24 e idade <= 45 e altura >= 1.90)
+		se(idade <= 0) 
 		{ 
-			escreva("Perfil ENCONTRADO")
+			escreva("Valor Negatio. Favor Informar a Idade Novamente. ")
 		}
+		senao se(idade > 0)
+		{ 
+			escreva("Sua Idade é: ", idade)
 		}
+	}
 }
+	
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 175; 
+ * @POSICAO-CURSOR = 49; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
